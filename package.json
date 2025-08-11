@@ -1,0 +1,8 @@
+{
+  "name": "story-board-canvas",
+  "version": "1.0.0",
+  "description": "Simple web app for AI illustrated story boards",
+  "scripts": {
+    "test": "echo 'No tests specified'"
+  }
+}

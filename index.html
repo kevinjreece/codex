@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Story Board Canvas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h2>Boards</h2>
+      <select id="boardSelect"></select>
+      <div class="board-buttons">
+        <button id="newBoard">New</button>
+        <button id="renameBoard">Rename</button>
+        <button id="deleteBoard">Delete</button>
+      </div>
+      <h3>Style</h3>
+      <select id="styleSelect"></select>
+      <h3>API Key</h3>
+      <input type="password" id="apiKey" placeholder="OpenAI API Key" />
+    </aside>
+    <main id="main">
+      <div id="chat"></div>
+      <form id="chatForm">
+        <input id="chatInput" type="text" placeholder="Describe the scene..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+      <div id="canvasWrapper">
+        <img id="canvas" alt="Generated scene" />
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
