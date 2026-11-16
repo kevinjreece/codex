@@ -2,7 +2,7 @@
 
 A browser app for illustrating a story while you tell it. Describe a scene in a chat box and an AI image model draws it. Keep chatting to change the scene, start new scenes, and keep separate boards for different stories.
 
-I built it with tabletop RPG game masters in mind (describing a room as players walk in) and for parents telling bedtime stories.
+It's designed for tabletop RPG game masters describing rooms and encounters, and for parents telling bedtime stories.
 
 ## Features
 
@@ -21,10 +21,8 @@ npx serve .
 
 Paste an OpenAI API key into the sidebar. The key isn't saved anywhere and is sent only to the OpenAI Images API.
 
-## How it was built
-
-This was an experiment in AI-assisted development. I wrote the brief, and OpenAI's Codex agent produced the requirements, plan, and implementation in a pull request. The planning documents are kept in the repo:
+## Design docs
 
 - [`Requirements.md`](Requirements.md): personas, user stories, and functional requirements
 - [`ProjectPlan.md`](ProjectPlan.md): architecture, data model, and API integration
-- [`DevLog.md`](DevLog.md): the agent's working log and assumptions
+- [`DevLog.md`](DevLog.md): development log and assumptions
